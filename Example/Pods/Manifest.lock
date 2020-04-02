@@ -1,9 +1,18 @@
 PODS:
+  - AutoData (0.0.15):
+    - AutoModel
+    - NFANetwork
+    - NFASQLiteDB
+    - NFAToolkit
+  - AutoModel (0.0.5)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
+  - NFANetwork (0.0.7)
+  - NFASQLiteDB (0.0.1)
+  - NFAToolkit (0.0.16)
   - Nimble (7.3.4)
   - Nimble-Snapshots (6.3.0):
     - Nimble-Snapshots/Core (= 6.3.0)
@@ -11,9 +20,11 @@ PODS:
     - FBSnapshotTestCase (~> 2.0)
     - Nimble (~> 7.0)
   - Quick (1.2.0)
-  - SwiftProjects (0.1.0)
+  - SwiftProjects (0.0.1):
+    - AutoData
 
 DEPENDENCIES:
+  - AutoData
   - FBSnapshotTestCase (~> 2.1.4)
   - Nimble (~> 7.0)
   - Nimble-Snapshots (~> 6.3.0)
@@ -22,7 +33,12 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - AutoData
+    - AutoModel
     - FBSnapshotTestCase
+    - NFANetwork
+    - NFASQLiteDB
+    - NFAToolkit
     - Nimble
     - Nimble-Snapshots
     - Quick
@@ -32,12 +48,17 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  AutoData: 7d9d88b75367e945e10aa3ffec25fd6809ff581d
+  AutoModel: bc6e3c72145375476f4759199570cc6cd74b8f70
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  NFANetwork: 353ebc5cceb5f59d6147aee02a93ae97a754f965
+  NFASQLiteDB: cd375370d3c3549c1df2323dc4008678fb869d3d
+  NFAToolkit: 3a0f54f6ab420c6cf609d4781849c42347937922
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  SwiftProjects: 1944b3772881d6c9aba9c521adbe324ae3177e68
+  SwiftProjects: 6188530885d17e2fc924598c5bd60b1892425277
 
-PODFILE CHECKSUM: 0dea7307cc8c47869ba84885a6faa06e55aa8170
+PODFILE CHECKSUM: 907030f21a73bf4b173b910f896d9a38ac0fde23
 
 COCOAPODS: 1.9.1
