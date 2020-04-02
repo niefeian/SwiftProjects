@@ -7,13 +7,13 @@
 
 import UIKit
 import NFAToolkit
-class BasePopVC: UIViewController, IDataPost {
+open class BasePopVC: UIViewController, IDataPost {
 
     open var postData : AnyObject?
     open var callBack: CBWithParam?
     open var loding = false
     
-   override func viewDidLoad() {
+    override public func viewDidLoad() {
        super.viewDidLoad()
 
        #if DEBUG
@@ -27,7 +27,7 @@ class BasePopVC: UIViewController, IDataPost {
        super.viewWillAppear(animated)
    }
    
-   override func viewDidAppear(_ animated: Bool) {
+    override open func viewDidAppear(_ animated: Bool) {
       super.viewDidAppear(animated)
    }
    

@@ -8,7 +8,7 @@
 import UIKit
 import NFAToolkit
 
-class BaseProVC : UIViewController, IDataPost {
+open class BaseProVC : UIViewController, IDataPost {
    
     open var postData : AnyObject?
     open var callBack: CBWithParam?

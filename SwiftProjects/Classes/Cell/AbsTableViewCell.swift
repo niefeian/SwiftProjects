@@ -7,18 +7,18 @@
 
 import UIKit
 import NFAToolkit
-class AbsTableViewCell: UITableViewCell {
+open class AbsTableViewCell: UITableViewCell {
 
-    var userData : AnyObject?
-    weak var baseView : UIViewController!
+    public var userData : AnyObject?
+    weak public var baseView : UIViewController!
        
      
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
+    override public func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state

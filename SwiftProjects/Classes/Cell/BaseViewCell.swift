@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import NFAToolkit
 
-class BaseViewCell: AbsTableViewCell {
+open class BaseViewCell: AbsTableViewCell {
     
     @IBOutlet weak var label: UILabel!
     
@@ -32,7 +32,7 @@ class BaseViewCell: AbsTableViewCell {
     
     fileprivate var btnCallBack: CB? 
     
-    func regSwitchAction(isOn : Bool = true, fun : @escaping (Bool) -> Void) {
+   public func regSwitchAction(isOn : Bool = true, fun : @escaping (Bool) -> Void) {
         self.switchCallBack = fun
         self.switchBtn.isHidden = false
         self.switchBtn.setOn(isOn, animated: true)
@@ -42,7 +42,7 @@ class BaseViewCell: AbsTableViewCell {
     
    
     
-    func regBtnAction(_ title : String, fun : @escaping CB) {
+   public func regBtnAction(_ title : String, fun : @escaping CB) {
         self.btnCallBack = fun
         self.btn.isHidden = false
         self.label.isHidden = true
