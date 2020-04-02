@@ -136,7 +136,6 @@
 		A6C25ECB2435ED870013AE02 /* CustTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C25EC92435ED870013AE02 /* CustTabBarVC.swift */; };
 		A6C25ECC2435ED870013AE02 /* CustNavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C25ECA2435ED870013AE02 /* CustNavigationVC.swift */; };
 		A6C25ECE2435EF0C0013AE02 /* BasePopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C25ECD2435EF0C0013AE02 /* BasePopVC.swift */; };
-		A6C25ED52435F0810013AE02 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C25ED32435F0810013AE02 /* APIConfig.swift */; };
 		A6C25ED7243604560013AE02 /* BaseProVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C25ED6243604560013AE02 /* BaseProVC.swift */; };
 		A71F689CC14BCB9892C31A23B4A89F62 /* NFAToolkit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C38AFE8B604B5BEA85EBA452EBA731BB /* NFAToolkit-dummy.m */; };
 		A787308C5CA0BCA2B3A706F44CD5F7B4 /* ErrorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F644DECA27A2A17E63143ABBE6F4961 /* ErrorUtility.swift */; };
@@ -574,7 +573,6 @@
 		A6C25EC92435ED870013AE02 /* CustTabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustTabBarVC.swift; sourceTree = "<group>"; };
 		A6C25ECA2435ED870013AE02 /* CustNavigationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustNavigationVC.swift; sourceTree = "<group>"; };
 		A6C25ECD2435EF0C0013AE02 /* BasePopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePopVC.swift; sourceTree = "<group>"; };
-		A6C25ED32435F0810013AE02 /* APIConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
 		A6C25ED6243604560013AE02 /* BaseProVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseProVC.swift; sourceTree = "<group>"; };
 		A83957074114A1B9D7BF8F93CA7220AA /* ExampleMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleMetadata.swift; path = Sources/Quick/ExampleMetadata.swift; sourceTree = "<group>"; };
 		A8469267A4257527AFEF93406DEA8B31 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
@@ -1149,7 +1147,6 @@
 		A6C25ED12435F0770013AE02 /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				A6C25ED32435F0810013AE02 /* APIConfig.swift */,
 			);
 			name = Config;
 			path = SwiftProjects/Classes/Config;
@@ -1983,7 +1980,6 @@
 				A6C25ECB2435ED870013AE02 /* CustTabBarVC.swift in Sources */,
 				A6C25ED7243604560013AE02 /* BaseProVC.swift in Sources */,
 				38981D47153BDF4031B78014237B3E84 /* GuidePageView.swift in Sources */,
-				A6C25ED52435F0810013AE02 /* APIConfig.swift in Sources */,
 				A6C25EC72435ED580013AE02 /* PopupController.swift in Sources */,
 				ECC6F7AB078AC07F08E2C42569A8DD81 /* PageControl.swift in Sources */,
 				A6C25ECC2435ED870013AE02 /* CustNavigationVC.swift in Sources */,
