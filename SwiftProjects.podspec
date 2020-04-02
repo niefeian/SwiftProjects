@@ -42,5 +42,6 @@ TODO: Add long description of the pod here.
     s.dependency 'SDWebImage'
     s.dependency 'MJRefresh'
     s.dependency 'NFATipsUI'
-  
+   
+   s.swift_version = '5.0'
 end
