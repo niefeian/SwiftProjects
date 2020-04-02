@@ -1,14 +1,14 @@
 //
-//  BaseVC.swift
-//  eBooks
+//  BaseProVC.swift
+//  SwiftProjects
 //
-//  Created by 聂飞安 on 2020/3/25.
-//  Copyright © 2020 赵俊明. All rights reserved.
+//  Created by 聂飞安 on 2020/4/2.
 //
 
 import UIKit
 import NFAToolkit
-open class BaseVC: UIViewController, IDataPost {
+
+class BaseProVC : UIViewController, IDataPost {
    
     open var postData : AnyObject?
     open var callBack: CBWithParam?
@@ -38,9 +38,9 @@ open class BaseVC: UIViewController, IDataPost {
         
        }
     
-    override public func viewDidAppear(_ animated: Bool) {
+    override open func viewDidAppear(_ animated: Bool) {
        super.viewDidAppear(animated)
-       
+//        ME.curViewController = self
         
     }
     
