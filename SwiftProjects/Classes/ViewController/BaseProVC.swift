@@ -15,7 +15,7 @@ open class BaseProVC : UIViewController, IDataPost {
     open var loding = false
     
     
-    override public func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
 
         #if DEBUG

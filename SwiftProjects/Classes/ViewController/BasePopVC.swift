@@ -13,14 +13,13 @@ open class BasePopVC: UIViewController, IDataPost {
     open var callBack: CBWithParam?
     open var loding = false
     
-    override public func viewDidLoad() {
+    override open func viewDidLoad() {
        super.viewDidLoad()
-
-       #if DEBUG
-              print("当前类:\(self.classForCoder)")
-              #endif
+        #if DEBUG
+        print("当前类:\(self.classForCoder)")
+        #endif
        // Do any additional setup after loading the view.
-   }
+    }
    
 
    override open func viewWillAppear(_ animated: Bool) {
