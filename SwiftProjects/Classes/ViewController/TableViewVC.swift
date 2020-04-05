@@ -11,7 +11,7 @@ open class TableViewVC: BaseProVC {
     
     public let tableView : UITableView! = UITableView(frame: CGRect(x: 0, y: 0, width: AppWidth, height: AppHeight),style: .plain)
     
-    override  open func viewDidLoad() {
+    override  public func viewDidLoad() {
         super.viewDidLoad()
         
         tableView.tableFooterView = UIView()
@@ -32,8 +32,9 @@ open class TableViewVC: BaseProVC {
     }
     
     
-   open func registerCell(_ xibName : String , identifier : String){
-        
+   public func registerCell(_ xibName : String , identifier : String){
+        tableView.register(UINib(nibName: "SwiftProjects.bundle/\(xibName)", bundle: nil), forCellReuseIdentifier: "cell")
+       
     }
 
     /*
