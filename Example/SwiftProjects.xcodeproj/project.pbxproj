@@ -299,7 +299,6 @@
 				"${BUILT_PRODUCTS_DIR}/NFASQLiteDB/NFASQLiteDB.framework",
 				"${BUILT_PRODUCTS_DIR}/NFATipsUI/NFATipsUI.framework",
 				"${BUILT_PRODUCTS_DIR}/NFAToolkit/NFAToolkit.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftProjects/SwiftProjects.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -311,7 +310,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NFASQLiteDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NFATipsUI.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NFAToolkit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftProjects.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,7 +353,6 @@
 				"${BUILT_PRODUCTS_DIR}/NFASQLiteDB/NFASQLiteDB.framework",
 				"${BUILT_PRODUCTS_DIR}/NFATipsUI/NFATipsUI.framework",
 				"${BUILT_PRODUCTS_DIR}/NFAToolkit/NFAToolkit.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble-Snapshots/Nimble_Snapshots.framework",
@@ -370,7 +367,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NFASQLiteDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NFATipsUI.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NFAToolkit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble_Snapshots.framework",

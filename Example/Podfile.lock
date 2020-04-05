@@ -23,14 +23,10 @@ PODS:
     - FBSnapshotTestCase (~> 2.0)
     - Nimble (~> 7.0)
   - Quick (1.2.0)
-  - SDWebImage (5.5.2):
-    - SDWebImage/Core (= 5.5.2)
-  - SDWebImage/Core (5.5.2)
-  - SwiftProjects (0.0.3):
+  - SwiftProjects (0.0.6):
     - AutoData
     - MJRefresh
     - NFATipsUI
-    - SDWebImage
 
 DEPENDENCIES:
   - AutoData
@@ -40,14 +36,12 @@ DEPENDENCIES:
   - Nimble (~> 7.0)
   - Nimble-Snapshots (~> 6.3.0)
   - Quick (~> 1.2.0)
-  - SDWebImage (~> 5.5.2)
   - SwiftProjects (from `../`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - MJRefresh
     - NFATipsUI
-    - SDWebImage
   trunk:
     - AutoData
     - AutoModel
@@ -75,9 +69,8 @@ SPEC CHECKSUMS:
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  SDWebImage: 4d5c027c935438f341ed33dbac53ff9f479922ca
-  SwiftProjects: abd5773db7fd3b1fe72a0bd60e0eef3cbb2b24c0
+  SwiftProjects: b8d0f35647bca42a8fa57cf1b724b2d6940f941c
 
-PODFILE CHECKSUM: e1f125f7b9c8b92600d276da903aae0ddb4822c8
+PODFILE CHECKSUM: 534961e7ec765e612e5aa303da0c1bf38056471f
 
 COCOAPODS: 1.9.1
