@@ -269,6 +269,7 @@
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 963F5227D3DDE25454E65BA5EDB81C8C /* UIImage+Snapshot.m */; };
 		A53206CF6B601A31C9A26A7FD702B755 /* SDGraphicsImageRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 728B54D323F1A01D7AD5BC14216DAF22 /* SDGraphicsImageRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6AC0E104B89E55FF20F71AD1378327F /* UIImage+Metadata.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D6C7A60101755BE1BFF30D89AF7981 /* UIImage+Metadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6FDC227243988BC00AAC7A8 /* TableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FDC226243988BC00AAC7A8 /* TableViewVC.swift */; };
 		A71F689CC14BCB9892C31A23B4A89F62 /* NFAToolkit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E746411FA2770F9DBE1AA7039599936 /* NFAToolkit-dummy.m */; };
 		A787308C5CA0BCA2B3A706F44CD5F7B4 /* ErrorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B708BECCE46AFF5EAC0A9F61B33B09E7 /* ErrorUtility.swift */; };
 		A7B257D75993F5C90FAEEB16780CC215 /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4258F0F4A68A07C8975EF6F73FE84A /* NSBundle+MJRefresh.m */; };
@@ -977,6 +978,7 @@
 		A4685D95E5B1AE099F26EDD63400E61F /* SDAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImage.h; path = SDWebImage/Core/SDAnimatedImage.h; sourceTree = "<group>"; };
 		A59FBCA15DE66611BF4696E050195E68 /* SDAssociatedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAssociatedObject.m; path = SDWebImage/Private/SDAssociatedObject.m; sourceTree = "<group>"; };
 		A6E53CB86D36390BCDE3353C328BCB1E /* SDWebImageDownloaderResponseModifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderResponseModifier.m; path = SDWebImage/Core/SDWebImageDownloaderResponseModifier.m; sourceTree = "<group>"; };
+		A6FDC226243988BC00AAC7A8 /* TableViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewVC.swift; sourceTree = "<group>"; };
 		A78F52350191DB595E4D5FCCFFB2A49C /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		A94689B79C7DB0D909A249D6E80653A5 /* UIImage+Transform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Transform.h"; path = "SDWebImage/Core/UIImage+Transform.h"; sourceTree = "<group>"; };
 		A95CCA55E6E0A2A78DA975A27C968063 /* ThrowError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowError.swift; path = Sources/Nimble/Matchers/ThrowError.swift; sourceTree = "<group>"; };
@@ -1551,6 +1553,7 @@
 		5294239A01220C44F6E1F77E2CDDBF1A /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				A6FDC226243988BC00AAC7A8 /* TableViewVC.swift */,
 				7217B6E638EC07ADF77B27B12AE9E2B9 /* BasePopVC.swift */,
 				E05CCBBABEC9D604524A78DF63638706 /* BaseProVC.swift */,
 				C12014A3E5F4C0AA1045FD6601320780 /* PopupController.swift */,
@@ -2990,6 +2993,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6FDC227243988BC00AAC7A8 /* TableViewVC.swift in Sources */,
 				9D2E6AC1634F06FE55CC9056FB1B2139 /* AbsTableViewCell.swift in Sources */,
 				699849900925BE8A9CD455644C0291A8 /* BasePopVC.swift in Sources */,
 				D96593E99304236D62F456B5CABDAE6E /* BaseProVC.swift in Sources */,
@@ -3878,7 +3882,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -4530,7 +4534,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
