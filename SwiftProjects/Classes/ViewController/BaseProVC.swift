@@ -27,16 +27,16 @@ open class BaseProVC : UIViewController, IDataPost {
     
 
     override open func viewWillAppear(_ animated: Bool) {
-           super.viewWillAppear(animated)
-        UIBarButtonItem.appearance().setBackButtonTitlePositionAdjustment(UIOffset.init(horizontal: -500, vertical: 0), for: UIBarMetrics.default)
-           let count = self.navigationController?.viewControllers.count ?? 0
-          if count > 1 &&  !(self.tabBarController?.tabBar.isHidden ?? false) {
-              self.tabBarController?.tabBar.isHidden = true
-          }else if count <= 1 && (self.tabBarController?.tabBar.isHidden ?? false){
-              self.tabBarController?.tabBar.isHidden = false
-          }
-        
-       }
+       super.viewWillAppear(animated)
+    UIBarButtonItem.appearance().setBackButtonTitlePositionAdjustment(UIOffset.init(horizontal: -500, vertical: 0), for: UIBarMetrics.default)
+       let count = self.navigationController?.viewControllers.count ?? 0
+      if count > 1 &&  !(self.tabBarController?.tabBar.isHidden ?? false) {
+          self.tabBarController?.tabBar.isHidden = true
+      }else if count <= 1 && (self.tabBarController?.tabBar.isHidden ?? false){
+          self.tabBarController?.tabBar.isHidden = false
+      }
+
+    }
     
     override open func viewDidAppear(_ animated: Bool) {
        super.viewDidAppear(animated)

@@ -9,12 +9,10 @@ import UIKit
 import NFAToolkit
 open class BasePopVC: UIViewController, IDataPost , PopupContentViewController {
     
-    
-    
-
     open var postData : AnyObject?
     open var callBack: CBWithParam?
     open var loding = false
+    open var popSize = CGSize.zero
     
     override open func viewDidLoad() {
        super.viewDidLoad()
@@ -25,7 +23,7 @@ open class BasePopVC: UIViewController, IDataPost , PopupContentViewController {
     }
    
     open func sizeForPopup(_ popupController: PopupController, size: CGSize, showingKeyboard: Bool) -> CGSize {
-        return CGSize.zero
+        return popSize
     }
 
    override open func viewWillAppear(_ animated: Bool) {
