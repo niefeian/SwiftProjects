@@ -7,7 +7,10 @@
 
 import UIKit
 import NFAToolkit
-open class BasePopVC: UIViewController, IDataPost {
+open class BasePopVC: UIViewController, IDataPost , PopupContentViewController {
+    
+    
+    
 
     open var postData : AnyObject?
     open var callBack: CBWithParam?
@@ -21,6 +24,9 @@ open class BasePopVC: UIViewController, IDataPost {
        // Do any additional setup after loading the view.
     }
    
+    open func sizeForPopup(_ popupController: PopupController, size: CGSize, showingKeyboard: Bool) -> CGSize {
+        return CGSize.zero
+    }
 
    override open func viewWillAppear(_ animated: Bool) {
        super.viewWillAppear(animated)
