@@ -7,12 +7,21 @@
 //
 
 import UIKit
-//import SwiftProjects
-class ViewController: UIViewController {
+import SwiftProjects
+import NFAToolkit
+class ViewController: BaseProVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+      
+        LogManager.uploadLog()
+        
+//        Tools.delay(1) {
+//            let array = [String]()
+//                  let  i = array[1]
+//        }
+      
         // Do any additional setup after loading the view, typically from a nib.
     }
 

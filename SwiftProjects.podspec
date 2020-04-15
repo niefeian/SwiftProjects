@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftProjects'
-  s.version          = '0.0.8'
-  s.summary          = 'A short description of SwiftProjects.'
+  s.version          = '0.0.10'
+  s.summary          = '快速构建ios项目'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -39,8 +39,8 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
     s.dependency 'AutoData'
-#    s.dependency 'SDWebImage'
-    s.dependency 'MJRefresh'
+    s.dependency 'NFAFile'
+#    s.dependency 'MJRefresh'
     s.dependency 'NFATipsUI'
    
    s.swift_version = '5.0'

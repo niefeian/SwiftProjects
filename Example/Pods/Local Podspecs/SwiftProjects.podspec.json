@@ -1,7 +1,7 @@
 {
   "name": "SwiftProjects",
-  "version": "0.0.6",
-  "summary": "A short description of SwiftProjects.",
+  "version": "0.0.9",
+  "summary": "快速构建ios项目",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/niefeian/SwiftProjects",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/niefeian/SwiftProjects.git",
-    "tag": "0.0.6"
+    "tag": "0.0.9"
   },
   "platforms": {
     "ios": "8.0"
@@ -28,11 +28,13 @@
     "AutoData": [
 
     ],
-    "MJRefresh": [
+    "NFAFile": [
 
     ],
     "NFATipsUI": [
 
     ]
-  }
+  },
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }

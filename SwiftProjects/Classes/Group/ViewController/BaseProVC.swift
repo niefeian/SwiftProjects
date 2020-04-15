@@ -1,0 +1,24 @@
+//
+//  BaseProVC.swift
+//  SwiftProjects
+//
+//  Created by 聂飞安 on 2020/4/2.
+//
+
+import UIKit
+import NFAToolkit
+
+open class BaseProVC : BaseViewController {
+   
+    override open func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // Do any additional setup after loading the view.
+    }
+    
+    override open func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        ResidentManager.curViewController =  self
+    }
+}
+

@@ -213,6 +213,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = S6WL74C82Q;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -294,7 +295,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-SwiftProjects_Example/Pods-SwiftProjects_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AutoData/AutoData.framework",
 				"${BUILT_PRODUCTS_DIR}/AutoModel/AutoModel.framework",
-				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/NFAFile/NFAFile.framework",
 				"${BUILT_PRODUCTS_DIR}/NFANetwork/NFANetwork.framework",
 				"${BUILT_PRODUCTS_DIR}/NFASQLiteDB/NFASQLiteDB.framework",
 				"${BUILT_PRODUCTS_DIR}/NFATipsUI/NFATipsUI.framework",
@@ -305,7 +306,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AutoData.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AutoModel.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NFAFile.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NFANetwork.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NFASQLiteDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NFATipsUI.framework",
@@ -348,7 +349,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-SwiftProjects_Tests/Pods-SwiftProjects_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AutoData/AutoData.framework",
 				"${BUILT_PRODUCTS_DIR}/AutoModel/AutoModel.framework",
-				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/NFAFile/NFAFile.framework",
 				"${BUILT_PRODUCTS_DIR}/NFANetwork/NFANetwork.framework",
 				"${BUILT_PRODUCTS_DIR}/NFASQLiteDB/NFASQLiteDB.framework",
 				"${BUILT_PRODUCTS_DIR}/NFATipsUI/NFATipsUI.framework",
@@ -362,7 +363,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AutoData.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AutoModel.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NFAFile.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NFANetwork.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NFASQLiteDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NFATipsUI.framework",
@@ -531,7 +532,9 @@
 			baseConfigurationReference = 5256E219024B0806CDB44293 /* Pods-SwiftProjects_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S6WL74C82Q;
 				INFOPLIST_FILE = SwiftProjects/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -546,7 +549,9 @@
 			baseConfigurationReference = 370D89D8FC7ED6224A2D3764 /* Pods-SwiftProjects_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S6WL74C82Q;
 				INFOPLIST_FILE = SwiftProjects/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
