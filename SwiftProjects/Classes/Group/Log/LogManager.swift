@@ -15,7 +15,7 @@ public protocol LogManagerDelegate : NSObjectProtocol {
 }
 
 open class LogManager: NSObject {
-    // 上传日志
+    
     private static var sharedInstance  = LogManager()
     weak public var delegate : LogManagerDelegate!
     
@@ -44,6 +44,7 @@ open class LogManager: NSObject {
             }
         }
     }
+    
     // 写日志
     private func writeLog(_ e : NSException , param : [String:String]) {
 
