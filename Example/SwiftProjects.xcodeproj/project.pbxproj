@@ -347,11 +347,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SwiftProjects_Tests/Pods-SwiftProjects_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AutoData/AutoData.framework",
-				"${BUILT_PRODUCTS_DIR}/AutoModel/AutoModel.framework",
 				"${BUILT_PRODUCTS_DIR}/NFAFile/NFAFile.framework",
-				"${BUILT_PRODUCTS_DIR}/NFANetwork/NFANetwork.framework",
-				"${BUILT_PRODUCTS_DIR}/NFASQLiteDB/NFASQLiteDB.framework",
 				"${BUILT_PRODUCTS_DIR}/NFATipsUI/NFATipsUI.framework",
 				"${BUILT_PRODUCTS_DIR}/NFAToolkit/NFAToolkit.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
@@ -361,11 +357,7 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AutoData.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AutoModel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NFAFile.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NFANetwork.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NFASQLiteDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NFATipsUI.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NFAToolkit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
