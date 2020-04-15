@@ -10,7 +10,7 @@ import NFAToolkit
 
 open class BaseViewController: UIViewController , IDataPost {
     
-    private var callBack: CBWithParam?
+    open var callBack: CBWithParam?
     open var postData : AnyObject?
     open var loding = false
     

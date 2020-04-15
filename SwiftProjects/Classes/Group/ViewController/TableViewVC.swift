@@ -11,7 +11,7 @@ open class TableViewVC: BaseProVC {
     
     public let tableView : UITableView! = UITableView(frame: CGRect(x: 0, y: 0, width: AppWidth, height: AppHeight),style: .plain)
     
-    override  public func viewDidLoad() {
+    override  open func viewDidLoad() {
         super.viewDidLoad()
         
         tableView.tableFooterView = UIView()
@@ -32,7 +32,7 @@ open class TableViewVC: BaseProVC {
     }
     
     
-   public func registerCell(_ xibName : String , identifier : String){
+   open func registerCell(_ xibName : String , identifier : String){
 //        tableView.register(UINib(nibName: "SwiftProjects.bundle/\(xibName)", bundle: nil), forCellReuseIdentifier: "cell")
        
     }
@@ -51,7 +51,7 @@ open class TableViewVC: BaseProVC {
 
 extension TableViewVC : UIScrollViewDelegate{
     
-    public func scrollViewDidScroll(_ scrollView: UIScrollView) {
+    open func scrollViewDidScroll(_ scrollView: UIScrollView) {
         scrollView.bounces = scrollView.contentOffset.y >= 10
     }
     

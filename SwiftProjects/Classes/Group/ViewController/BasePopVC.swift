@@ -21,7 +21,7 @@ open class BasePopVC: BaseViewController , PopupContentViewController {
         return popSize
     }
     
-   open func regPopSize(_ popSize : CGSize) {
+   open func regisPopSize(_ popSize : CGSize) {
        self.popSize = popSize
    }
     
