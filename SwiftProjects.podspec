@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftProjects'
-  s.version          = '0.0.13'
+  s.version          = '0.0.14'
   s.summary          = '快速构建ios项目'
 
 # This description is used to generate tags and improve search results.

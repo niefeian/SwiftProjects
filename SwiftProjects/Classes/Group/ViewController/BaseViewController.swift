@@ -24,6 +24,10 @@ open class BaseViewController: UIViewController , IDataPost {
     }
     
 
+    open override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        UIBarButtonItem.appearance().setBackButtonTitlePositionAdjustment(UIOffset.init(horizontal: -500, vertical: 0), for: UIBarMetrics.default)
+    }
     
     open func postData(_ postData : AnyObject?) {
        self.postData = postData
