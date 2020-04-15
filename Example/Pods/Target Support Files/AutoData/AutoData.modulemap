@@ -1,6 +1,0 @@
-framework module AutoData {
-  umbrella header "AutoData-umbrella.h"
-
-  export *
-  module * { export * }
-}

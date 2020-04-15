@@ -197,21 +197,13 @@ if [ -r "${ARTIFACT_LIST_FILE}" ]; then
 fi
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/AutoData/AutoData.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/AutoModel/AutoModel.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/NFAFile/NFAFile.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/NFANetwork/NFANetwork.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/NFASQLiteDB/NFASQLiteDB.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/NFATipsUI/NFATipsUI.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/NFAToolkit/NFAToolkit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftProjects/SwiftProjects.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/AutoData/AutoData.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/AutoModel/AutoModel.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/NFAFile/NFAFile.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/NFANetwork/NFANetwork.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/NFASQLiteDB/NFASQLiteDB.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/NFATipsUI/NFATipsUI.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/NFAToolkit/NFAToolkit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftProjects/SwiftProjects.framework"
