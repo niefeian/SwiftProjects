@@ -41,7 +41,7 @@ TODO: Add long description of the pod here.
 #    s.dependency 'AutoData'
 #    s.dependency 'MJRefresh'
     s.dependency 'NFAFile'
-    s.dependency 'NFATipsUI'
+#    s.dependency 'NFATipsUI'
    
     s.swift_version = '5.0'
 end

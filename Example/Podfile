@@ -15,7 +15,7 @@ target 'SwiftProjects_Example' do
     pod 'Nimble-Snapshots' , '~> 6.3.0'
     
     pod 'NFATipsUI'
-    pod 'NFAFile'
+#    pod 'NFAFile'
     
   end
 end
