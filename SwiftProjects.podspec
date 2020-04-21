@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftProjects'
   s.version          = '0.0.20'
-  s.summary          = 'iospro'
+  s.summary          = '快速构建ios项目'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -42,6 +42,6 @@ TODO: Add long description of the pod here.
 #    s.dependency 'MJRefresh'
     s.dependency 'NFAFile'
     s.dependency 'NFATipsUI'
-
+   
     s.swift_version = '5.0'
 end
