@@ -4,10 +4,10 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - NFAFile (0.0.5)
+  - NFAFile (0.0.6)
   - NFATipsUI (0.0.9):
     - NFAToolkit
-  - NFAToolkit (0.0.16)
+  - NFAToolkit (0.0.17)
   - Nimble (7.3.4)
   - Nimble-Snapshots (6.3.0):
     - Nimble-Snapshots/Core (= 6.3.0)
@@ -44,9 +44,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  NFAFile: 90f79c443f50425f60c7735dd8007970f5ea20c0
+  NFAFile: 3e2d3e7a314cc5f9f862d8a659c575a9ef0d507f
   NFATipsUI: 99c25cb52c810ccdba9afee64bebdba6793bdc34
-  NFAToolkit: 3a0f54f6ab420c6cf609d4781849c42347937922
+  NFAToolkit: 92b11f5c75c267ae3ce6e316073c4d5e6b8407e9
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
