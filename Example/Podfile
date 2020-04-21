@@ -14,9 +14,6 @@ target 'SwiftProjects_Example' do
     pod 'FBSnapshotTestCase' , '~> 2.1.4'
     pod 'Nimble-Snapshots' , '~> 6.3.0'
     
-#    pod 'AutoData'
-#    pod 'SDWebImage', '~>  5.5.2'
-#    pod 'MJRefresh'
     pod 'NFATipsUI'
     pod 'NFAFile'
     
