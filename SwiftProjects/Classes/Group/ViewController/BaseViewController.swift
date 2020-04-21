@@ -20,9 +20,26 @@ open class BaseViewController: UIViewController , IDataPost {
         #if DEBUG
         print("当前类:\(self.classForCoder)")
         #endif
+        
+        initializePage()
+        initLayoutSubviews()
+        initializeDelegate()
         // Do any additional setup after loading the view.
     }
     
+    
+    open func initializePage(){
+
+    }
+
+    open  func initLayoutSubviews(){
+
+
+    }
+
+    open  func initializeDelegate(){
+
+    }
 
     open override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)

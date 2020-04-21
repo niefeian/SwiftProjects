@@ -25,7 +25,9 @@ open class BasePopVC: BaseViewController , PopupContentViewController {
        self.popSize = popSize
    }
     
-   
-    
+    override open func viewWillAppear(_ animated: Bool) {
+      super.viewWillAppear(animated)
+      ResidentManager.curPopViewController =  self
+    }
    
 }
