@@ -22,9 +22,6 @@
   "dependencies": {
     "NFAFile": [
 
-    ],
-    "NFATipsUI": [
-
     ]
   },
   "swift_versions": "5.0",
