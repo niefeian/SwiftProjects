@@ -1,22 +1,28 @@
 //
-//  AbsTableViewCell.swift
+//  CustomView.swift
 //  AutoData
 //
-//  Created by 聂飞安 on 2020/4/2.
+//  Created by 聂飞安 on 2020/4/28.
 //
 
 import UIKit
 
-open class AbsTableViewCell: UITableViewCell {
-   
+open class CustomView: UIView {
+    
     public var userData : AnyObject?
     weak public var baseView : UIViewController!
-    public var cb : (() -> Void)?
-    
-    open override func awakeFromNib() {
-        super.awakeFromNib()
+
+    override public init(frame: CGRect) {
+        super.init(frame: frame)
         initializePage()
         initLayoutSubviews()
+        initializeDelegate()
+        initializeDraw()
+        initializeData()
+    }
+
+    required public init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
 
     open func initializePage(){
@@ -40,6 +46,5 @@ open class AbsTableViewCell: UITableViewCell {
     open  func initializeData(){
 
     }
-
 
 }

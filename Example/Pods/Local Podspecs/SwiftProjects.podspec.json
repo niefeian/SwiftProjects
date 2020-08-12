@@ -22,6 +22,12 @@
   "dependencies": {
     "NFAFile": [
 
+    ],
+    "NFATipsUI": [
+
+    ],
+    "NFAToolkit": [
+
     ]
   },
   "swift_versions": "5.0",
