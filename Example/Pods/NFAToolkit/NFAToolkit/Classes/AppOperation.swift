@@ -27,4 +27,10 @@ open class AppOperation {
         }
         return false
     }
+    
+    
+    open class func openWriteReview(_ appId : String)
+    {
+      let _ = openURL("itms-apps://itunes.apple.com/cn/app/\(appId)?mt=8&action=write-review")
+    }
 }

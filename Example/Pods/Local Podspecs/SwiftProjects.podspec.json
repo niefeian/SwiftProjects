@@ -1,6 +1,6 @@
 {
   "name": "SwiftProjects",
-  "version": "0.0.20",
+  "version": "0.0.22",
   "summary": "快速构建ios项目",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/niefeian/SwiftProjects",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/niefeian/SwiftProjects.git",
-    "tag": "0.0.20"
+    "tag": "0.0.22"
   },
   "platforms": {
     "ios": "8.0"
